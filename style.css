@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: .4vw;
+}
+
+label {
+  font-size: 2em;
+}
+
+p {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#roll_btn {
+  background-color: rgb(0, 145, 255);
+  border: none;
+  color: white;
+  padding: 0 1vw;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+#roll_btn:hover {
+  background-color: rgb(0, 110, 255);
+}
+
+#inp_dices {
+  width: 9vw;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+#dice-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  gap: 1em;
+  width: 40%;
+}
+
+img {
+  width: 10em;
+  height: 10em;
+}
